@@ -11,6 +11,12 @@
       background-color: #f9f9f9;
       padding: 30px;
     }
+    .address {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #1976d2; /* 파란색 */
+      margin-bottom: 20px;
+    }
     .card {
       background-color: white;
       border-radius: 12px;
@@ -54,13 +60,15 @@
   </style>
 </head>
 <body>
+  <div class="address">순창군 순창읍 경천로 33</div>
+
   <div class="card">
     <h2>📟 긴급 구조 요청</h2>
     <p>아래 버튼을 눌러 전화 또는 문자로 구조를 요청하세요.</p>
     <a href="tel:119" class="button call">
       📞 전화 걸기 (119)
     </a>
-    <a href="sms:119?body=[순창군 순창읍 경천로 33]입니다. 구조를 요청합니다." class="button sms">
+    <a href="sms:119?body=순창군 순창읍 경천로 33입니다. 구조요청합니다." class="button sms">
       💬 문자 보내기 (119)
     </a>
     <p class="warning">
